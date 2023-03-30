@@ -25,23 +25,25 @@ h1, h2{
     letter-spacing: 3px;
 }
 #main-image{
-    width:100%;
-    height:420px;
+    width: 100%;
+    height: auto;
 }
 #main-title{
-    font-size: 150%;
+    font-size: 110%;
 }
 #menu{
-    font-size: 120%;
+    font-size: 90%;
     letter-spacing: 2px;
 }
  
 
 #first-line{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     color:#3b5bdb;
+    line-height: 60px;
+    margin:0 2% 0 2%;
 }
 
 nav{
@@ -67,3 +69,25 @@ li a:hover{
     background-color: #495057;
     color: #fff;
 }
+
+/* Using key frames */
+
+@keyframes zoom {
+    from {
+      transform:
+        scale(1);
+    }
+    to {
+      transform:
+       
+      scale(1.1);
+    }
+  }
+
+  #main-image {
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode:both;
+  }
+
+
