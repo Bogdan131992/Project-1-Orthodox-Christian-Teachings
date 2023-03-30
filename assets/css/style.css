@@ -8,4 +8,62 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    color:#495057;
+}
+
+testcolors{color:#3b5bdb;
+color:#054834;
+color:#7E1B1B;
+}
+
+/* Header */
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color:#7E1B1B;
+    letter-spacing: 3px;
+}
+#main-image{
+    width:100%;
+    height:420px;
+}
+#main-title{
+    font-size: 150%;
+}
+#menu{
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+ 
+
+#first-line{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color:#3b5bdb;
+}
+
+nav{
+    text-decoration: none;
+    display: inline-block;
+}
+nav li {
+   
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ a {
+    text-decoration: none;
+    color: #495057;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+.current{
+    background-color: #495057;
+    color: #fff;
 }
