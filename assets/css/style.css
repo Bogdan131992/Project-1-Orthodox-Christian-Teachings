@@ -7,8 +7,11 @@
 
 body{
     font-family: 'Oswald', sans-serif;
-    color: #393b3d;
+    color: #292b2c;
     margin: 0 5% 0 5% ;
+    background-color: rgba(139, 220, 240, 0.952);
+    background:url(../images/patern.jpg)
+   
 }
 
 
@@ -109,9 +112,10 @@ li a:hover{
     overflow: hidden;
     position: relative;
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 50% 45%;
     column-gap: 2%;
     justify-content: space-around;
+    align-items: center;
 }
 
 #description-title {
@@ -123,9 +127,9 @@ li a:hover{
 }
 
 #description-text {
-    font-size: 110%;
+    font-size: 130%;
     margin-left: 0.5%;
-    line-height: 170%;  
+    line-height: 170%;   
 }
 
 #description-image {
@@ -201,17 +205,10 @@ footer h2{
     display: inline;
     padding: 0.5%;
     border-radius: 50%;
-    border: 3px dotted red;
+    border: 3px double rgb(15, 15, 15);
 }
 
-#social-links h2 {
-    text-align: center;
-    font-size: 130%;
-    margin: 1%;
-    list-style: none;
 
-
-}
 
 #social-links li {
     
@@ -220,7 +217,7 @@ footer h2{
 
 #social-links i {
     color: #3b5bdb; 
-    font-size: 130%;
+    font-size: 230%;
     padding: 5%;
     margin:1%;
 }
