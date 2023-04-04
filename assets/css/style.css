@@ -7,17 +7,17 @@
 
 body{
     font-family: 'Oswald', sans-serif;
-    color:#393b3d;
+    color: #393b3d;
     margin: 0 5% 0 5% ;
 }
 
 
-/* Header */
+/* Section 1: Header, nav , main image and cover text (Bible verse)*/
 
 h1, h2{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color:#3b5bdb;
+    color: #3b5bdb;
     letter-spacing: 3px;
 }
 
@@ -65,9 +65,9 @@ li a:hover{
 }
 
 #hero-image {
-    height:600px;
-    width:100%;
-    background:url('../images/httpspravoslavieru.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background: url('../images/httpspravoslavieru.jpg') no-repeat center center;
     background-size: 100%;
     border-radius: 8px;
     margin: 2%;
@@ -76,9 +76,9 @@ li a:hover{
 }
 
 #cover-text, #cover-text h3{
-    clear:both;
-    color:#fff;
-    float:right;
+    clear: both;
+    color: #fff;
+    float: right;
 
 }
 
@@ -89,7 +89,7 @@ li a:hover{
     height: 15%;
     background-color: rgba(59,91,219, .6);
     bottom: 1px;
-    left:1%;
+    left: 1%;
     position: absolute;
     border-radius: 11%;
 
@@ -99,112 +99,142 @@ li a:hover{
     text-align: center;
   }
 
-/* Description section */
-#description-title{
-    color:#3b5bdb;
-    text-align: left;
-    padding-bottom: 0.5%;
-}
-.form {
-    color:inherit;
-    text-decoration: underline;
+/* Section 2: Description section */
 
-}
-.form:hover{
-    color:red;
-}
 #description-container {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
     height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
-    display:grid;
+    display: grid;
     grid-template-columns: 40% 50%;
     column-gap: 2%;
     justify-content: space-around;
-
 }
 
-#description-image{
-    background: url('../images/2ascoriasi.ro.jpg') no-repeat center center;
-    height: 400px;
-    width:100%;
-    border-radius: 8px;
+#description-title {
+    color: #3b5bdb;
+    text-align: left;
+    padding-bottom: 0.5%;
+    font-size: 140%;
+    text-align: center;
+}
+
+#description-text {
+    font-size: 110%;
+    margin-left: 0.5%;
+    line-height: 170%;  
+}
+
+#description-image {
+    background: url('../images/1ascoriasi.ro.jpg') no-repeat center center;
+    height: 500px;
+    width: 100%;
+    border-radius: 11%;
     background-size: 130%;
 }
 
-#description-text{
-    font-size: large;
-    margin-left: 0.5%;
-    line-height: 170%;
-    margin-top: 5%;
+/* Links */
+
+.link-form {
+    color: inherit;
+    text-decoration: underline;
+
+}
+.link-form:hover {
+    color: red;
 }
 
-/* ICONS */
-i{
-    margin:2%;
-}
-.fa-sharp{
-    margin:2%;
-}
-
-/* Outer */
 
 
+/* Section 3: program-section */ 
 
-
-/* program-section */
-
-#program-section{
+#program-container{
 
     background-color: aqua;
-    background:url('../images/thumbs.dreamstime.com.jpg') no-repeat center center;
+    background:url('../images/www.discoverdobrogea.ro.jpeg') center center;
     margin: 2%;
     overflow: hidden;
-    position: relative;
-
-
-
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 5%;
     justify-content: space-between;
     justify-items: end;
-    align-items: start;
-    height: 2050%;
-    width:100%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
     background-size: 100%;
-
-   
-
-
 }
 
-#program-section div>h3 {
+#program-header{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 200%;
+}
+
+#program-container div>h3 {
+    padding-top: 25%;
     display: inline-block;
     color: #ffffff;
-    font-size: 100%;
+    text-align: center;
+    font-size: 130%;
     letter-spacing: 4px;
-    height: 80%;
+    height: 300px;
     width: 80%;
+    background-color: rgba(6, 31, 133, 0.562);
 }
 
 /* Footer */
-.social-links, .social-links a {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    justify-self:center;
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3b5bdb;
-    list-style-type: none;
-    align-items: end;
-      
+
+footer {
+    text-align: center;
+    padding-top: 3%;
+    
+    
 }
+
+footer h2{
+    background-color: #3b5bdb;
+    color:#ffffff;
+    display: inline;
+    padding: 0.5%;
+    border-radius: 50%;
+    border: 3px dotted red;
+}
+
+#social-links h2 {
+    text-align: center;
+    font-size: 130%;
+    margin: 1%;
+    list-style: none;
+
+
+}
+
+#social-links li {
+    
+    display: inline;
+}
+
+#social-links i {
+    color: #3b5bdb; 
+    font-size: 130%;
+    padding: 5%;
+    margin:1%;
+}
+
+
+/* ICONS */
+i{
+    margin: 2%;
+}
+.fa-sharp{
+    margin: 2%;
+}
+
+
 
 
 /* Registration Page  */
