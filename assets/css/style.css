@@ -11,17 +11,25 @@ body{
     margin: 0 5% 0 5% ;
     background-color: rgba(139, 220, 240, 0.952);
     background:url(../images/patern.jpg)
-   
+
 }
 
+/* Page 1: Home Page */
 
 /* Section 1: Header, nav , main image and cover text (Bible verse)*/
 
-h1, h2{
+h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #3b5bdb;
     letter-spacing: 3px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #3b5bdb;
+    letter-spacing: 3px;
+
 }
 
 
@@ -129,7 +137,7 @@ li a:hover{
 #description-text {
     font-size: 130%;
     margin-left: 0.5%;
-    line-height: 170%;   
+    line-height: 170%;
 }
 
 #description-image {
@@ -153,7 +161,7 @@ li a:hover{
 
 
 
-/* Section 3: program-section */ 
+/* Section 3: program-section */
 
 #program-container{
 
@@ -170,24 +178,32 @@ li a:hover{
     height: 100%;
     width: 100%;
     background-size: 100%;
+    padding: 1%;
+    background-size: cover;
+  background-position: center;
 }
 
-#program-header{
+.center-header{
     text-align: center;
     padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 #program-container div>h3 {
-    padding-top: 25%;
+    padding-top: 16%;
     display: inline-block;
-    color: #ffffff;
+    color: #3b5bdb;
     text-align: center;
-    font-size: 130%;
+    font-size: 150%;
+    font-weight: 800;
+    border: 2px solid white;
     letter-spacing: 4px;
-    height: 300px;
-    width: 80%;
-    background-color: rgba(6, 31, 133, 0.562);
+    height: 220px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.72);
 }
 
 /* Footer */
@@ -195,8 +211,8 @@ li a:hover{
 footer {
     text-align: center;
     padding-top: 3%;
-    
-    
+
+
 }
 
 footer h2{
@@ -204,19 +220,19 @@ footer h2{
     color:#ffffff;
     display: inline;
     padding: 0.5%;
-    border-radius: 50%;
+    border-radius: 11%;
     border: 3px double rgb(15, 15, 15);
 }
 
 
 
 #social-links li {
-    
+
     display: inline;
 }
 
 #social-links i {
-    color: #3b5bdb; 
+    color: #3b5bdb;
     font-size: 230%;
     padding: 5%;
     margin:1%;
@@ -231,12 +247,47 @@ i{
     margin: 2%;
 }
 
+/* Page 2: Structure of catechetical program */
 
+#structure-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 3%;
 
+    padding: 0.5%;
 
-/* Registration Page  */
-.form-section{
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap:2%;
+
+}
+
+#divimg4 {
     background: url(../images/ascoriasi.ro.jpeg) no-repeat center center;
+    height: 600px;
+    grid-column: 1 / -1;
+    padding:10%;
+
+    background-size: 100%;
+    padding: 1%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#structure-container p, #structure-container li {
+    font-size: 140%;
+}
+#structure-container img {
+    width:100%;
+    border-radius: 2%;
+}
+
+
+
+/* Page 3:  Registration Page  */
+.form-section{
+    background: url() no-repeat center center;
     width: 100%;
     height: 1000px;
     margin: 2%;
@@ -258,7 +309,7 @@ i{
     left: 30%;
     position: absolute;
   }
-  
+
   .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
@@ -272,7 +323,7 @@ i{
     border: 1px solid #fafafa;
     border-radius: 2px;
   }
-  
+
   .text-input:hover {
     border-color: #3b5bdb;
   }
@@ -286,7 +337,7 @@ i{
     color: #fafafa;
     display: block;
   }
-  
+
   .join-button:hover {
     background-color: #fafafa;
     color: #3b5bdb;
