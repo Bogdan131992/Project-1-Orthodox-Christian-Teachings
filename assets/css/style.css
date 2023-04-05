@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Oswald:wght@300&family=Roboto+Mono:wght@300&display=swap');
 
-*{
+* {
 
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Oswald', sans-serif;
-    color: #292b2c;
-    margin: 0 5% 0 5% ;
+    color: #151616;
+    margin: 0 5% 0 5%;
     background-color: rgba(139, 220, 240, 0.952);
-    background:url(../images/patern.jpg)
-
+    background: url(../images/patern.jpg)
 }
 
 /* Page 1: Home Page */
 
 /* Section 1: Header, nav , main image and cover text (Bible verse)*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #3b5bdb;
@@ -33,29 +33,31 @@ h3 {
 }
 
 
-#main-title{
-    font-size: 100%;
-    padding:1%;
+#main-title {
+
+    font-size: 200%;
 }
-#menu{
+
+#menu {
     font-size: 90%;
     letter-spacing: 2px;
 }
 
 
-#header{
+#header {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    color:#3b5bdb;
+    color: #3b5bdb;
     line-height: 60px;
-    margin:0 2% 0 2%;
+    margin: 0 2% 0 2%;
 }
 
-nav{
+nav {
     text-decoration: none;
     display: inline-block;
 }
+
 nav li {
 
     font-size: 20px;
@@ -63,15 +65,16 @@ nav li {
     margin-right: 20px;
 }
 
- a {
+a {
     text-decoration: none;
     color: #495057;
 }
 
-li a:hover{
+li a:hover {
     text-decoration: underline;
 }
-.current{
+
+.current {
     background-color: #495057;
     color: #fff;
 }
@@ -87,29 +90,30 @@ li a:hover{
     position: relative;
 }
 
-#cover-text, #cover-text h3{
+#cover-text,
+#cover-text h3 {
     clear: both;
     color: #fff;
     float: right;
 
 }
 
-#cover-text{
+#cover-text {
     font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
     height: 15%;
-    background-color: rgba(59,91,219, .6);
+    background-color: rgba(59, 91, 219, .6);
     bottom: 1px;
     left: 1%;
     position: absolute;
     border-radius: 11%;
 
-  }
+}
 
-  #cover-text h6{
+#cover-text h6 {
     text-align: center;
-  }
+}
 
 /* Section 2: Description section */
 
@@ -122,6 +126,7 @@ li a:hover{
     position: relative;
     display: grid;
     grid-template-columns: 50% 45%;
+
     column-gap: 2%;
     justify-content: space-around;
     align-items: center;
@@ -135,8 +140,8 @@ li a:hover{
     text-align: center;
 }
 
-#description-text {
-    font-size: 130%;
+.description-text {
+    font-size: 120%;
     margin-left: 0.5%;
     line-height: 170%;
 }
@@ -145,8 +150,15 @@ li a:hover{
     background: url('../images/1ascoriasi.ro.jpg') no-repeat center center;
     height: 500px;
     width: 100%;
-    border-radius: 11%;
     background-size: 130%;
+}
+
+#description-image2 {
+    background: url('../images/httpswww.monastiriaka.grenthe-last-super.jpg') no-repeat center center;
+    height: 500px;
+    width: 100%;
+    background-size: 100%;
+
 }
 
 /* Links */
@@ -156,6 +168,7 @@ li a:hover{
     text-decoration: underline;
 
 }
+
 .link-form:hover {
     color: red;
 }
@@ -164,10 +177,10 @@ li a:hover{
 
 /* Section 3: program-section */
 
-#program-container{
+#program-container {
 
     background-color: aqua;
-    background:url('../images/www.discoverdobrogea.ro.jpeg') center center;
+    background: url('../images/www.discoverdobrogea.ro.jpeg') center center;
     margin: 2%;
     overflow: hidden;
     display: grid;
@@ -181,14 +194,13 @@ li a:hover{
     background-size: 100%;
     padding: 1%;
     background-size: cover;
-  background-position: center;
+    background-position: center;
 }
 
-.center-header{
+.center-header {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -216,9 +228,9 @@ footer {
 
 }
 
-footer h2{
+footer h2 {
     background-color: #3b5bdb;
-    color:#ffffff;
+    color: #ffffff;
     display: inline;
     padding: 0.5%;
     border-radius: 11%;
@@ -237,21 +249,22 @@ footer h2{
     color: #3b5bdb;
     font-size: 230%;
     padding: 5%;
-    margin:1%;
+    margin: 1%;
 }
 
 
 /* ICONS */
-i{
+i {
     margin: 2%;
 }
-.fa-sharp{
+
+.fa-sharp {
     margin: 2%;
 }
 
 /* Page 2: Structure of catechetical program */
 
-#structure-container{
+#structure-container {
     display: grid;
     grid-template-columns: 40% 40%;
     column-gap: 3%;
@@ -260,7 +273,7 @@ i{
 
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: space-around;
-    gap:2%;
+    gap: 2%;
 
 }
 
@@ -268,40 +281,46 @@ i{
     background: url(../images/ascoriasi.ro.jpeg) no-repeat center center;
     height: 600px;
     grid-column: 1 / -1;
-    padding:10%;
-
+    padding: 10%;
     background-size: 100%;
-    padding: 1%;
     background-size: cover;
     background-position: center;
+    border-radius: 2%;
 }
 
 
-#structure-container p, #structure-container li {
-    font-size: 140%;
+#structure-container p,
+#structure-container li {
+    font-size: 130%;
 }
+
 #structure-container img {
-    width:100%;
+    width: 100%;
     border-radius: 2%;
 }
 
 /* iframe */
 
-.container-youtube-example {
-    position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+#heading-before-video {
+    padding: 5% 0 3% 0;
 }
-  .responsive-iframe {
-    position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-    border: 10px solid rgba(59,91,219, .7);
-  }
+
+.container-youtube-example {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(59, 91, 219, .7);
+}
 
 
 /* Page 3:  Registration Page  */
@@ -309,7 +328,8 @@ i{
 
 #form-section {
     color: #fff;
-    background-color: rgba(59,91,219, .7);
+    background-color: rgba(59, 91, 219, .7);
+    border: 2px solid #fff;
     margin: 150px 10% 0 0;
     max-width: 30%;
     height: auto;
@@ -322,12 +342,12 @@ i{
 
 }
 
-  #form-section h2 {
+#form-section h2 {
     color: #fafafa;
     margin-bottom: 20px;
-  }
+}
 
-  .text-input {
+.text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -335,12 +355,13 @@ i{
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-  }
+}
 
-  .text-input:hover {
+.text-input:hover {
     border-color: #3bdb70;
-  }
-  .join-button {
+}
+
+.join-button {
     background-color: #3b5bdb;
     color: #fafafa;
     margin-top: 20px;
@@ -350,57 +371,58 @@ i{
     text-align: center;
     font-size: 100%;
     display: block;
-  }
+}
 
-  .join-button:hover {
+.join-button:hover {
     background-color: #fafafa;
     color: #3b5bdb;
-  }
+}
 
-  #custom-select{
+#custom-select {
     text-align: center;
-  }
+}
 
-  #custom-select option {
-    background-color:rgba(59,91,219, .6);
-    color:#fafafa;
-    margin:2%;
+#custom-select option {
+    background-color: rgba(59, 91, 219, .6);
+    color: #fafafa;
+    margin: 2%;
     font-size: large;
-  }
+}
 
-  #container-registration {
+#container-registration {
     background: url(../images/www.descopera.ro.jpg) no-repeat center center;
     background-size: 100%;
     height: 100%x;
     width: 100%;
     position: relative;
     padding: 3%;
-    
-
-  }
+    margin-bottom: 5%;
 
 
+}
+
+
+/* iframe Map */
+#map {
+
+    width: 100%;
+    height: 250px;
+}
 
 
 
+/* Keyframes */
 
-
-
-
-
-  /* Keyframes */
-
-  @keyframes slide-in {
+@keyframes slide-in {
     from {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     to {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
-  }
+}
 
-  #cover-text {
+#cover-text {
     animation: slide-in 1000ms;
-  }
-
-
+}
