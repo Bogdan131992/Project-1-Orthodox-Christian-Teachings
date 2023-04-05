@@ -23,28 +23,34 @@
     </nav>
 </div>
 </header>
+<div id="container-registration">
+<div id="form-section">
+  <form action="index.html" method="POST">
+  
+      <h2>Complete this form to reserve a place at our meetings:</h2>
 
-<section class="form-section">
-  <form action="index.html" method="POST" class="signup-form">
-      <h2>Book here <i class="fa-solid fa-arrow-down"></i></h2>
       <label for="fname">First Name</label>
-      <input id="fname" type="text" name="first_name" required class="text-input">
+      <input id="fname" type="text" name="first_name" class="text-input" required>
       <label for="lname">Last Name</label>
-      <input id="lname" type="text" name="last_name" required class="text-input">
+      <input id="lname" type="text" name="last_name" class="text-input" required>
       <label for="email">Email Address</label>
-      <input id="email" type="email" name="email_address" required class="text-input">
+      <input id="email" type="email" name="email_address" class="text-input"required>
 
-      <h3>Select your age groupe:</h3>
-      <label for="12-18">12-18</label>
-      <input type="radio" id="12-18" name="age" value="12-18" required>
-      <label for="">18-35</label>
-      <input type="radio" id="18-35" name="age" value="18-35">
-      <label for="over-35">Over 35</label>
-      <input type="radio" id="over-35" name="age" value="over 35">
-      
-      <input type="submit" value="Book a place!" class="join-button">
-      
-      </form>
+
+      <label for="age">Please select your age groupe:</label>
+      <div id="custom-select">
+        <select id="age" name="age">
+        <option value="between 12 and 18 years" selected>between 12 and 18 years</option>
+        <option value="between 18 and 35 years">between 18 and 35 years</option>
+        <option value="over 35 years">over 35 years</option>
+        <input type="submit" value="Book your place!" class="join-button">
+      </select>
+    </div>
+    </form>
+</div>
+</div>
+
+
 
       <footer>
         <h2>Follow us</h2>
