@@ -30,9 +30,9 @@
   </header>
 
   <div id="container-registration">
-    <img src="/assets/images/www.descopera.ro.jpg" alt="Image of an Orthodox monastery in Bucovina Romania">
+    <img src="assets/images/www.descopera.ro.jpg" alt="Image of an Orthodox monastery in Bucovina Romania">
     <div id="form-section">
-      <form action="index.html" method="POST">
+      <form action="confirmation.html" method="GET">
 
         <h2>Complete this form to reserve a place at our meetings:</h2>
 
@@ -46,8 +46,9 @@
 
         <label for="age">Please select your age groupe:</label>
         <div id="custom-select">
-          <select id="age" name="age">
-            <option value="between 12 and 18 years" selected>between 12 and 18 years</option>
+          <select id="age" name="age" required>
+            <option value="" selected>Plese select yout age group</option>
+            <option value="between 12 and 18 years">between 12 and 18 years</option>
             <option value="between 18 and 35 years">between 18 and 35 years</option>
             <option value="over 35 years">over 35 years</option>
             <input type="submit" value="Book your place!" class="join-button">
