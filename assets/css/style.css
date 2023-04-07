@@ -569,13 +569,12 @@ i {
 
     .description-container {
         padding-top: 2%;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
         height: auto;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-
         row-gap: 0.5%;
         align-items: stretch;
     }
@@ -787,11 +786,24 @@ i {
     }
 
     .description-container {
-        row-gap: 10px;
+        display: grid;
+        grid-template-rows: 1fr;
+        align-self: center;
+        row-gap: 5px;
+        height: max-content;
     }
 
+
+
+    .img1 {
+        height: fit-content;
+        align-self: center;
+        margin-top: 2%;
+    }
+
+
     .description-text {
-        line-height: 145%;
+        line-height: 147%;
     }
 
     #description-image {
