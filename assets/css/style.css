@@ -200,7 +200,7 @@ li a:hover {
     display: inline-block;
     color: #3b5bdb;
     text-align: center;
-    font-size: 150%;
+    font-size: 125%;
     font-weight: 800;
     border: 2px solid #ffffff;
     letter-spacing: 4px;
@@ -374,7 +374,7 @@ i {
     padding: 15px 15px;
     text-align: center;
     font-size: 100%;
-    display: inilne-block;
+    /*  inilne-block; */
 }
 
 .join-button:hover {
@@ -649,7 +649,7 @@ i {
 
 
     .center-header {
-        padding-top: -1%;
+        padding-top: 0%;
         padding-bottom: 1%;
         letter-spacing: 1px;
     }
@@ -665,7 +665,7 @@ i {
     }
 
     .heading-before-video {
-        padding: -1% 0px 9% 0;
+        padding: 0% 0px 9% 0;
         font-size: 119%;
     }
 
@@ -853,13 +853,13 @@ i {
     }
 
     .center-header {
-        padding-top: -1%;
+        padding-top: 0;
         padding-bottom: 1%;
         letter-spacing: 1px;
     }
 
     .heading-before-video {
-        padding: -1% 0px 9% 0;
+        padding: 0 0px 9% 0;
         font-size: 119%;
     }
 
