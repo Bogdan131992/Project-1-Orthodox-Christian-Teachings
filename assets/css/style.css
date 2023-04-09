@@ -31,17 +31,10 @@ h3 {
     letter-spacing: 3px;
 }
 
-
-.main-title {
-
-    font-size: 200%;
-}
-
 .menu {
     font-size: 90%;
     letter-spacing: 2px;
 }
-
 
 .header {
     display: flex;
@@ -179,7 +172,7 @@ li a:hover {
 #program-container {
 
     background-color: #00ffff;
-    background: url('../images/program-img.jpeg') center center;
+    background: url('../images/program-img.jpg') center center;
     overflow: hidden;
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -444,10 +437,6 @@ i {
     h2,
     h3 {
         letter-spacing: 0;
-    }
-
-    .main-title {
-        font-size: 100%;
     }
 
     .menu {
@@ -779,10 +768,6 @@ i {
         font-size: 13px;
         display: inline-block;
         margin-right: 5px;
-    }
-
-    .main-title {
-        font-size: 100%;
     }
 
     .description-container {
