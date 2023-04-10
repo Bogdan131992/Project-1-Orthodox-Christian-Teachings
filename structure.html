@@ -14,59 +14,45 @@
 </head>
 
 <body>
-
-  <header>
-    <div class="header">
-      <a href="index.html">
-        <h1 class="main-title">Catechetical meetings in Leipzig</h1>
-      </a>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="structure.html" class="current">Structure</a></li>
-          <li><a href="registration-forms.html">Registration</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- After the common header, in the first section on the structure page 
-    I wrote about the fact that the catechetical meetings will be structured on twelve themes 
-    based on a program made by an Orthodox bishop. 
-
-    Then I inserted two images of catechetical meetings that 
-    I display them alternately with a list of twelve themes of the catechesis, 
-    I divided the list in two to put them in parallel with the two images, 
-    at smaller sizes.
-    
-    I used the grid property to change the place images to 
-    display them alternately with the text of the two parts of the list. 
-
-    At the end of the section I added another image embedded in a div. 
-    
-    After this section, I have included a video from YouTube as an example of catechesis.
-    also I added the footer that is common to all pages. -->
-
+  <section>
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <h1 class="main-title">Catechetical meetings in Leipzig</h1>
+        </a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="structure.html" class="current">Structure</a></li>
+            <li><a href="registration-forms.html">Registration</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </section>
+  <!-- In this section I have alternated three texts with three images using  grid propertys.
+The first text is a small introduction and the next two are equal parts of an unordered list -->
   <section>
     <h2 class="center-header">Here you can find information about the topics we will discuss together</h2>
     <div class="structure-container">
-      <div>
+      <div class="structure-text">
         <p>Our program will follow the structure of a catechetical program created by Metropolitan Kalistos Ware called
-          "Path of Salvation"
-          This program was designed and carried out by a group of specialists from the Institute for
-          Christian-Orthodox Studies at the University of Cambridge in Great Britain.
-          This "path" has twelve steps and we would be happy to make them together with you!
+          <strong>"Path of Salvation"</strong>
         </p>
+        <p>This program was designed and carried out by a group of specialists from the Institute for
+          Christian-Orthodox Studies at the University of Cambridge in Great Britain.
+        </p>
+        <p>This "path" has twelve steps and we would be happy to make them together with you!
+        </p>
+        <br>
+        <h4>The topics we will debate in the twelve catechetical meetings are the following:</h4>
       </div>
-
       <img class="img1" src="assets/images/structure-img1.jpg"
         alt="An Orthodox priest holding a catechesis in a Church with many believers who sit on the chairs and listen">
-
       <img class="img2" src="assets/images/structure-img2.jpg"
         alt="Orthodox priest giving a catechetical presentation in the Church together with a group of believers">
-      <div>
-        <h3>The topics we will debate in the twelve catechetical meetings in the Orthodox Church of Leipzig are the
-          following:</h3>
+      <div class="structure-text">
+
         <ol>
           <li>The search for faith</li>
           <li>God - Holy Trinity: "The Lover of People"</li>
@@ -76,32 +62,29 @@
           <li>The Holy Spirit</li>
         </ol>
       </div>
-
-
-      <div>
+      <div class="structure-text">
         <ol start="7">
           <li>What is the church? Isn't God enough?</li>
-          <li>Living faith -> I. Divine Liturgy, a pearl of great price</li>
-          <li>Living the faith -> II. Holy Mysteries.</li>
-          <li>Living the faith -> III. Holy Scripture, prayer and fasting</li>
+          <li>Divine Liturgy, a pearl of great price</li>
+          <li> Holy Mysteries.</li>
+          <li>Holy Scripture, prayer and fasting</li>
           <li>Christian behavior</li>
           <li>Heaven on earth, members of the Church and citizens of heaven</li>
         </ol>
       </div>
       <img class="img3" src="assets/images/structure-img3.jpg"
         alt="Orthodox priest speaking in the presence of a large group of believers gathered in a hall for catechesis">
-      <div id="divimg4" role="img"
-        aria-label="A group of young people together with a bishop and an orthodox priest gathered in a church to give catechesis">
-      </div>
     </div>
+    <br>
   </section>
+  <div id="divimg4" role="img"
+    aria-label="A group of young people together with a bishop and an orthodox priest gathered in a church to give catechesis">
+  </div>
+  <!-- In the last part of this page, I have added a title that presents a YouTube video with catechetical content -->
+  <div class="heading-before-video">
+    <h2>To get an idea of how the first part of our catechesis will look like, you can look at this video:</h2>
+  </div>
 
-  <h2 class="heading-before-video">To get an idea of how the first part of our catechesis will look like, you can see
-    this video:</h2>
-  <br>
-
-  <!-- This iframe I took from: https://www.youtube.com/ using embedding property 
-    and I added the style elements to the style.css document -->
   <div class="container-youtube-example">
     <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ijwj2CVehA8"></iframe>
   </div>

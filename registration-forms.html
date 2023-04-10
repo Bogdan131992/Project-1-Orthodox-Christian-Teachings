@@ -13,32 +13,28 @@
   <title>Catechetical meetings - Registration</title>
 </head>
 
-<!-- This page contains a registration form displayed inside a div with a Romanian monastery as background image. 
-  The form has three boxes to fill in, first name and e-mail address, 
-  then a select element to allow the choice of an age category, 
-  all fields as well as the select element have the required attribute.
-  Before the footer, I have inserted a google map 
-  with the address of the Church where the catechesis will take place. -->
+<!-- This page contains a registration form displayed inside a div.
+  The form has three boxes to fill in, and a select element, all elements have the required attribute.
+  Before the footer, I have inserted a google map -->
 
 <body class="body-form-page">
-  <header>
-    <div class="header">
-      <a href="index.html">
-        <h1 class="main-title">Catechetical meetings in Leipzig</h1>
-      </a>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="structure.html">Structure</a></li>
-          <li><a href="registration-forms.html" class="current">Registration</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- For the form I was inspired by the Love Running example, 
-    but I replaced the radio elements with the select element. -->
-
+  <section>
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <h1 class="main-title">Catechetical meetings in Leipzig</h1>
+        </a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="structure.html">Structure</a></li>
+            <li><a href="registration-forms.html" class="current">Registration</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </section>
+  <!-- This section consists of a form that is displayed on top of a background image -->
   <div class="container-registration">
     <div id="forms-img" role="img" aria-label="Image of an Orthodox monastery in Bucovina Romania"></div>
     <div class="form-section">
@@ -55,8 +51,6 @@
 
 
         <label for="age">Please select your age groupe:</label>
-        <!-- for the "custom-select" part, I was inspired by the following source: 
-            https://www.w3schools.com/howto/howto_custom_select.asp -->
         <div class="custom-select">
 
           <select id="age" name="age" required>
@@ -74,7 +68,7 @@
 
 
   <h3>Visit us at this address:Russenstrasse 194, Leipzig, Germany</h3>
-  <!-- I copied this iframe from https://www.google.com/maps/ and added the style elements offered by google maps to the style.css document -->
+  <!-- the map iframe is from https://www.google.com/maps/ and added the style elements offered by google maps to the style.css document -->
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2494.4659594657214!2d12.448195115966385!3d51.30255113348073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f93af8c21ed7%3A0x5bf841ed406216db!2sRum%C3%A4nisch-Orthodoxe%20Kirche%20%22Heiliger%20Georg%22%20zu%20Leipzig!5e0!3m2!1sro!2sde!4v1680700325010!5m2!1sro!2sde"
     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>

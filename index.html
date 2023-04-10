@@ -14,25 +14,13 @@
   <title>Leipzig Orthodox Catechetical meetings</title>
 </head>
 
-
-
-<!-- In this first section I have included a header that will contain the 
-  main title that will be incorporated into an anchor element 
-  and a navigation list for the three main pages.
-  This part with the title and the nav element will be copied also in the three main pages 
-  and in a fourth page which will be a simple page with a confirmation message after completing a form.
-
-  Then, only for the first page, I will add main-image (hero-image)  along with a cover text 
-  (containing a suggestive Bible verse) that will have a keyframe applied 
-  to slide from the left side onto the hero image. 
-  For the keyframe I was inspired from this web site: https://www.joshwcomeau.com/animation/keyframe-animations/-->
-
-<body class="header-img">
+<body>
+  <!-- In the header I have the main title and the navigation menu, this section is shared with all pages -->
   <section>
     <header>
       <div class="header">
         <a href="index.html">
-          <h1>Catechetical meetings in Leipzig</h1>
+          <h1 class="main-title">Catechetical meetings in Leipzig</h1>
         </a>
         <nav>
           <ul class="menu">
@@ -43,55 +31,38 @@
         </nav>
       </div>
     </header>
-
+  </section>
+  <!-- In this section I put the main image together with a cover text that has a keyframe applied to add a little dynamism. -->
+  <section>
     <div id="hero-image" role="img"
       aria-label="Background image with an Orthodox painting representing the Resurrection of Jesus Christ raising Adam and Eve from Hell">
       <div class="cover-text">
         <h3>"Faith comes by hearing, and hearing by the word of God"</h3>
-        <h6>(Romans 10,17)</h6>
+        <h5>(Romans 10,17)</h5>
       </div>
     </div>
   </section>
-
-
-  <!-- In the description section I wrote the main reasons for creating the site, 
-    namely the need of believers to know their own faith, 
-    then I offered preliminary information about the possibility of registering for catechetical meetings 
-    organized in the city of Leipzig by the parish priest together with some theologians.
-
-    Then I added an image with an Orthodox icon with the Last Supper, 
-    to show people that the Apostles were also catechized by Jesus, 
-    then I added a second image that shows a group of people participating in a spiritual meeting with a priest, 
-    to show people that such meetings are wanted and useful.
-
-    Next, I have inserted a list with the important information about catechesis, briefly dotted, 
-    in this list I have included three links, the first leads to the website of the parish where catechesis takes place, 
-    the second leads to the page with the structure of catechesis and the last link to access form page. -->
-
+  <!-- In the description section I have two div elements with two images that are displayed using grid properties.
+The text contains the basic information that reveals the purpose of this site to organize registration for a catechetical course. -->
   <section class="description-container">
 
     <div class="description-text">
-      <h2>Welcome to our website!</h2>
-      <p>Are you an Orthodox Christian but you feel like <strong>you don't know your faith that well?</strong>
-        <p>Would you like to <strong>find out and understand more</strong> about your own faith, but you don't know
-          where to look or you don't have time?</p>
-        <p>If your answer is yes to at least one of these questions, then <strong>you are in the right place!</strong>
-        </p>
-        <p>We organize <strong>free sessions</strong> of twelve catechetical meetings for different age groups.</p>
-
-        <h2>What is faith and why is it important?</h2>
-        <p>
-          <strong>Faith is a gift from God</strong>, this great gift must be increased
-          through active and conscious work to help us get to know God better and experience Him
-          in a real way.</p>
-
-        <p>The path of faith is a chance to grow in a <strong>personal relationship with God</strong></p>
-        <p>Seeing that many believers, even though they are baptized, no longer know their own faith, but they have the
-          desire to find more about it, we decided to help them by <strong><em>organizing orthodox
-              catechesis.</em></strong>
-          In these catechesis we will discuss the fundamental themes of the Orthodox Christian faith.</p>
-        <p>You can find the list of the twelve themes in the menu bar at the top by accessing the structure page.
-        </p>
+      <h2 class="description-title">Welcome to our website!</h2>
+      <p>We organize, for the <strong>Orthodox Christian community in Leipzig</strong>,
+        <strong><em>free sessions</em></strong> of twelve catechetical meetings for three different age groups.
+        The sessions are for those who want to improve their knowledge about their faith.
+      </p>
+      <h4>What is faith and why is it important?</h4>
+      <p>
+        <strong>Faith is a gift from God</strong>, this great gift must be increased
+        through a <strong>personal relationship with Him</strong>
+      </p>
+      <p>Seeing that many believers, even though they are baptized, no longer know their own faith, but they have the
+        desire to find more about it, we decided to help them by <strong><em>organizing orthodox
+            catechesis.</em></strong>
+        In these catechesis we will discuss the fundamental themes of the Orthodox Christian faith.</p>
+      <p>You can find the list of the twelve themes in the menu bar at the top by accessing the structure page.
+      </p>
     </div>
 
 
@@ -100,17 +71,18 @@
       aria-label="The large hall with the people gathered for a catechetical and spiritual conference"></div>
 
     <div class="description-text">
-      <h2 class="description-title"><i class="fa-solid fa-church"></i> Our meetings take place in the
+      <h4 class="description-title"><i class="fa-solid fa-church"></i>Our meetings take place in the
         <a href="https://www.parohia-leipzig.com/" target="_blank"
           aria-label="Web page from our Romanian Orthodox Church  (opens in a new tab)" class="link-form">Orthodox
-          Church </a>in Leipzig, Germany.</h2>
-      <br>
+          Church </a>in Leipzig, Germany
+      </h4>
+
       <ul>
         <li>
-          <h3><em>Every Thursday from 6:00 p.m.</em></h3>
+          <h4><em>Every Thursday from 6:00 p.m.</em></h4>
         </li>
         <li>
-          <h3><em>Adress: Russenstr. 194, 04288 Leipzig.</em></h3>
+          <h4><em>Adress: Russenstr. 194, 04288 Leipzig.</em></h4>
         </li>
         <li>We start with a small prayer before every meeting</li>
         <li><a href="structure.html" class="link-form"><strong> We will have twelve meetings</strong></a> in groups of
@@ -126,16 +98,10 @@
       <h2><i class="fa-sharp fa-solid fa-pen fa-fw"></i> Book your <a href="registration-forms.html"
           class="link-form">place</a> now!</h2>
     </div>
-
   </section>
-
-
-  <!-- In the program-section, I wrote the schedule to inform the user about the next three groups of people 
-    who will participate in catechesis. This program is written inside three frames with a background image 
-    represents the interior of a church seen between two large half-open doors. -->
-
+  <!-- In the program section, I have displayed the program for the next 3 sessions of catechetical meetings. -->
   <section class="program-section">
-    <h2 class="center-header"><i class="fa-solid fa-arrow-down"></i> Our future meetings <i
+    <h2 class="center-header"><i class="fa-solid fa-arrow-down"></i>Our upcoming sessions:<i
         class="fa-solid fa-arrow-down"></i></h2>
     <br>
     <div id="program-container" role="img"
@@ -152,12 +118,8 @@
     </div>
   </section>
 
-  <!-- In the footer section I added a button with the message "fallow us" 
-    to offer a way to keep in touch with new users and then I add the icons for 
-    accessing the social media pages, then I also included the fontawesome script
-    needed for the icons used. 
-    The footer section is copied in all-->
 
+  <!-- the footer element contains the links to social media, the footer is shared with all pages -->
   <footer>
     <h2>Follow us</h2>
     <ul class="social-links">
