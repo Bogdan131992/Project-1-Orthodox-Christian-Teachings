@@ -114,9 +114,9 @@ To highlight the links during the hover, I used light green.
 ![img](/assets/RE-images/background-patern.png)
 
 
-### Validator Testing
+## 6. Validator Testing
 
-  #### 8.1 code validation
+  #### 6.1 code validation
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Findex.html)
 
 - [Structure Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Fstructure.html)
@@ -127,7 +127,7 @@ To highlight the links during the hover, I used light green.
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-  ### 8.2 Test cases (user story based with screenshots)
+  ### 6.2 Test cases (user story based with screenshots)
 - As a user, when I click on the main title, I am taken to the home page
 ![img](/assets/RE-images/test-maintitle.png)
 
@@ -178,9 +178,7 @@ To highlight the links during the hover, I used light green.
 
 ![img](/assets/RE-images/form-age.png)
 
-## 
-
-   ### 8.3 fixed bugs
+   ### 6.3 fixed bugs
 
 Writing the arialabelledby attribute inside a div that displayed an image as background caused 53 errors when I tested the html code
    ![img](/assets/RE-images/aria%20bug.png)
@@ -204,21 +202,21 @@ So we removed the imput element from inside the select element to fix the bug
    ![img](/assets/RE-images/fix-imput-form-bug.png)
 
 
-   ## 8.4 supported screens
+## 7. supported screens
 
 I used media queries (@media screen and (max-width:400px)) for the dimensions: 1200px, 950px, 400px.
 To create a responsive website for all devices
 
 
    
-## 9. Deployment  ## 
+## 8. Deployment  ## 
 
 [via gitpod - live link](https://bogdan131992.github.io/Project-1-Orthodox-Christian-Teachings/)
 
 [via github pages](https://github.com/Bogdan131992/Project-1-Orthodox-Christian-Teachings)
 
 
-## 10. credits  ## 
+## 9. credits  ## 
 
 ### Content
 For the , I used information about the content of the twelve catechetical themes from the following page:
