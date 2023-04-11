@@ -164,9 +164,11 @@ To highlight the links during the hover, I used light green.
 
 
 - As a user, I can't click on the book your place button without writing something in the First Name field, I'm warned that I have to write something in the first field
+
 ![img](/assets/RE-images/form-test1.png)
 
 - As a user, I click on the book your place button without writing something in the Last Name field, I am warned that I have to write something in the second field
+
 ![img](/assets/RE-images/form-lastn.png)
 
 
