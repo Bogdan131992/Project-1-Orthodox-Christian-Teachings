@@ -219,8 +219,8 @@ To create a responsive website for all devices
 ## 9. credits  ## 
 
 ### Content
-For the , I used information about the content of the twelve catechetical themes from the following page:
-[structure page](https://sfantulnicolaepitesti.wordpress.com/sfanta-litughie-taina-tainelor/)
+For the structure page, I used information about the content of the twelve catechetical themes from 
+[this page](https://sfantulnicolaepitesti.wordpress.com/sfanta-litughie-taina-tainelor/)
 
 ### Media
 the  from the following address:
