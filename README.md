@@ -221,8 +221,13 @@ To create a responsive website for all devices
 ## 9. credits  ## 
 
 ### Content
+To create the project, I followed the example provided by the codeinstitute in Love Running project.
+I took the social media links and the first part of the form from the Love Running project and adapted them to my project.
+
 For the structure page, I used information about the content of the twelve catechetical themes from 
 [this page](https://sfantulnicolaepitesti.wordpress.com/sfanta-litughie-taina-tainelor/)
+
+
 
 ### Media
 the  from the following address:
