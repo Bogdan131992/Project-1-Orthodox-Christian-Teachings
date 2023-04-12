@@ -203,12 +203,16 @@ So we removed the imput element from inside the select element to fix the bug
   
    ![img](re-images/fix-imput-form-bug.png)
 
+   ### 6.3 Lighthouse 
 
-## 7. supported screens
+   ![img](re-images/dextop-lighthouse-test.png)
+   ![img](re-images/mobile-lighthouse-test.png)
+
+
+## 7. Supported screens
 
 I used media queries (@media screen and (max-width:400px)) for the dimensions: 1200px, 950px, 400px.
 To create a responsive website for all devices
-
 
    
 ## 8. Deployment  ## 
@@ -226,7 +230,6 @@ I took the social media links and the first part of the form from the Love Runni
 
 For the structure page, I used information about the content of the twelve catechetical themes from 
 [this page](https://sfantulnicolaepitesti.wordpress.com/sfanta-litughie-taina-tainelor/)
-
 
 
 ### Media
