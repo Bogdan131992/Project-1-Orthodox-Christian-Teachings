@@ -79,8 +79,8 @@ I kept the same **layout** as on the first page and **alternated the text with t
 At the end of the page I added an iframe with a **video from youtube** to provide an example of catechesis to the user
 ![img](re-images/p2-youtube.png)
 
-### Form Page
-In the Form Page, I have included a form that is displayed on a background image that represents an Orthodox Monastery in Romania.
+### Forms Page
+In the Forms Page, I have included a form that is displayed on a background image that represents an Orthodox Monastery in Romania.
 
 The **form has three input** elements for text, a select element and finally an input submit element, all of which have the **required attribute.**
 After completing the form and sending it, the user will be directed to a page with a confirmation message.
@@ -117,6 +117,7 @@ To highlight the links during the hover, I used light green.
 ## 6. Validator Testing
 
   #### 6.1 code validation
+
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Findex.html)
 
 - [Structure Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Fstructure.html)
@@ -128,6 +129,7 @@ To highlight the links during the hover, I used light green.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbogdan131992.github.io%2FProject-1-Orthodox-Christian-Teachings%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
   ### 6.2 Test cases (user story based with screenshots)
+
 - As a user, when I click on the main title, I am taken to the home page
 ![img](re-images/test-maintitle.png)
 
@@ -135,7 +137,7 @@ To highlight the links during the hover, I used light green.
 ![img](re-images/test-menu.png)
 
 #### Home page
-
+- As a user on the home page I see information about the purpose of the site to organize catechetical meetings
 - As a user, when I'm on the home page, I see that a text slides from left to right to draw my attention to a Biblical quote
 ![img](re-images/test-cover-text.png)
 
@@ -152,19 +154,21 @@ To highlight the links during the hover, I used light green.
 
 ![img](re-images/test-program.png)
 
-### Footer
+#### Footer
 
 - As a user when I hover over the social media icons I see that they are clickable and if I click I am taken to the social media pages that open in a new tab
 
 ![img](re-images/test-social-media.png)
 
-### Structure Page
+#### Structure Page
+
+- As a user of the structure page, I can clearly see the themes of the twelve catechetical meetings.
 - As a user, when I click play on the video on YouTube, I can see and listen to the video, and I can control the volume.
 
 ![img](re-images/test-youtube.png)
 
 
-### Registrations-forms page
+#### Registrations-forms page
 
 - As a user, I can't click on the book your place button without writing something in the First Name field, I'm warned that I have to write something in the first field
 
@@ -187,7 +191,11 @@ To highlight the links during the hover, I used light green.
 - As a user, when I click on the google map, I can enlarge or zoom in on the map and see the address of the Church where the meetings take place, marked on the map.
 ![img](re-images/test-map.png)
 
-   ### 6.3 fixed bugs
+#### Confirmation Page 
+
+- As a user, after filling out the form, I am redirected to the confirmation page where I am greeted with a massage that confirms that I have successfully registered
+
+### 6.3 fixed bugs
 
 Writing the arialabelledby attribute inside a div that displayed an image as background caused 53 errors when I tested the html code
    ![img](re-images/aria%20bug.png)
@@ -236,7 +244,7 @@ The steps followed for project deployment are as follows:
 - I clicked on save.
 - I was informed that the deployment process was successful and I received a link for my website
 
-For gitpod, to see the live project I used the command python -m http.server in the terminal.
+- For gitpod, to see the live project I used the command python -m http.server in the terminal.
 
 [via gitpod - live link](https://bogdan131992.github.io/Project-1-Orthodox-Christian-Teachings/)
 
