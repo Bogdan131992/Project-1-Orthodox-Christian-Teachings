@@ -227,9 +227,22 @@ To create a responsive website for all devices
    
 ## 8. Deployment  ## 
 
+The steps followed for project deployment are as follows:
+
+- In the GitHub repository I selected my project from the menu on the left.
+- Then I clicked on Settings and from the settings menu on **the left** I clicked on the Pages button
+- Then from the Branch section I chose "main".
+- At the end, I entered the domain name bogdan131992.github.io in Custom domain
+- I clicked on save.
+- I was informed that the deployment process was successful and I received a link for my website
+
+For gitpod, to see the live project I used the command python -m http.server in the terminal.
+
 [via gitpod - live link](https://bogdan131992.github.io/Project-1-Orthodox-Christian-Teachings/)
 
 [via github pages](https://github.com/Bogdan131992/Project-1-Orthodox-Christian-Teachings)
+
+
 
 
 ## 9. Technology
