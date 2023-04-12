@@ -134,6 +134,8 @@ To highlight the links during the hover, I used light green.
 - As a user, when I hover over a name in the menu, I see that a green border appears around the name of the menu items, when I click on an item, I am taken to the corresponding page and the name of the page I am on appears in white with a blue background
 ![img](re-images/test-menu.png)
 
+#### Home page
+
 - As a user, when I'm on the home page, I see that a text slides from left to right to draw my attention to a Biblical quote
 ![img](re-images/test-cover-text.png)
 
@@ -150,18 +152,19 @@ To highlight the links during the hover, I used light green.
 
 ![img](re-images/test-program.png)
 
+### Footer
+
 - As a user when I hover over the social media icons I see that they are clickable and if I click I am taken to the social media pages that open in a new tab
 
 ![img](re-images/test-social-media.png)
 
-
+### Structure Page
 - As a user, when I click play on the video on YouTube, I can see and listen to the video, and I can control the volume.
 
 ![img](re-images/test-youtube.png)
 
-- As a user, when I click on the google map, I can enlarge or zoom in on the map and see the address of the Church where the meetings take place, marked on the map.
-![img](re-images/test-map.png)
 
+### Registrations-forms page
 
 - As a user, I can't click on the book your place button without writing something in the First Name field, I'm warned that I have to write something in the first field
 
@@ -179,6 +182,10 @@ To highlight the links during the hover, I used light green.
 - As a user, I can't click on the book your place button without choosing the age category, I'm warned that I have to choose the age category and then click on the book button
 
 ![img](re-images/form-age.png)
+
+
+- As a user, when I click on the google map, I can enlarge or zoom in on the map and see the address of the Church where the meetings take place, marked on the map.
+![img](re-images/test-map.png)
 
    ### 6.3 fixed bugs
 
@@ -205,7 +212,10 @@ So we removed the imput element from inside the select element to fix the bug
 
    ### 6.3 Lighthouse 
 
+   #### Lighthouse report for  dextop
    ![img](re-images/dextop-lighthouse-test.png)
+
+   #### Lighthouse report for mobile 
    ![img](re-images/mobile-lighthouse-test.png)
 
 
@@ -222,7 +232,19 @@ To create a responsive website for all devices
 [via github pages](https://github.com/Bogdan131992/Project-1-Orthodox-Christian-Teachings)
 
 
-## 9. credits  ## 
+## 9. Technology
+
+As technologies in this project we used:
+- Google Fonts
+- youtube video iframes
+- google maps iframe
+- external and internal links
+- Font Awesome - Icons
+- Background- pattern from freepik.com
+- Media queries
+- slide-in keyframes
+
+## 10. credits  ## 
 
 ### Content
 To create the project, I followed the example provided by the codeinstitute in Love Running project.
